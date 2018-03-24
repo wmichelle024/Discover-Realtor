@@ -29,6 +29,8 @@ class DataViewController: UIViewController {
         self.dataLabel!.text = dataObject
     }
 
-
+    @IBAction func discoverTouchDown(_ sender: UIButton) {
+    }
+    
 }
 

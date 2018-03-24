@@ -16,6 +16,12 @@
 		D2A0E7AC20665C0A009BDFE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A0E7AA20665C0A009BDFE2 /* LaunchScreen.storyboard */; };
 		D2A0E7B720665C0A009BDFE2 /* Discover_RealtorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0E7B620665C0A009BDFE2 /* Discover_RealtorTests.swift */; };
 		D2A0E7C220665C0A009BDFE2 /* Discover_RealtorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0E7C120665C0A009BDFE2 /* Discover_RealtorUITests.swift */; };
+		D2A0E7D020666233009BDFE2 /* 99928.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2A0E7CF20666232009BDFE2 /* 99928.jpg */; };
+		D2A0E7D2206667C6009BDFE2 /* duplicate explorer icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A0E7D1206667C6009BDFE2 /* duplicate explorer icon.png */; };
+		D2A0E7D420666FCD009BDFE2 /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A0E7D320666FCD009BDFE2 /* screen1.png */; };
+		D2A0E7D8206677D3009BDFE2 /* Downloads in Resources */ = {isa = PBXBuildFile; fileRef = D2A0E7D7206677D3009BDFE2 /* Downloads */; };
+		D2A0E7DA20667861009BDFE2 /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A0E7D920667860009BDFE2 /* navbar.png */; };
+		D2ED096020667AC000CCE14B /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = D2ED095F20667AC000CCE14B /* view.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		D2A0E7BD20665C0A009BDFE2 /* Discover RealtorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Discover RealtorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A0E7C120665C0A009BDFE2 /* Discover_RealtorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover_RealtorUITests.swift; sourceTree = "<group>"; };
 		D2A0E7C320665C0A009BDFE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A0E7CF20666232009BDFE2 /* 99928.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 99928.jpg; path = ../../../Downloads/99928.jpg; sourceTree = "<group>"; };
+		D2A0E7D1206667C6009BDFE2 /* duplicate explorer icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "duplicate explorer icon.png"; path = "../../../duplicate explorer icon.png"; sourceTree = "<group>"; };
+		D2A0E7D320666FCD009BDFE2 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screen1.png; path = ../../../Downloads/screen1.png; sourceTree = "<group>"; };
+		D2A0E7D7206677D3009BDFE2 /* Downloads */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Downloads; path = ../../../Downloads; sourceTree = "<group>"; };
+		D2A0E7D920667860009BDFE2 /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navbar.png; path = ../../../Downloads/navbar.png; sourceTree = "<group>"; };
+		D2ED095F20667AC000CCE14B /* view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = view.png; path = ../../../Downloads/view.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +118,14 @@
 				D2A0E7A120665C0A009BDFE2 /* DataViewController.swift */,
 				D2A0E7A320665C0A009BDFE2 /* ModelController.swift */,
 				D2A0E7A520665C0A009BDFE2 /* Main.storyboard */,
+				D2ED095F20667AC000CCE14B /* view.png */,
+				D2A0E7D920667860009BDFE2 /* navbar.png */,
+				D2A0E7D7206677D3009BDFE2 /* Downloads */,
 				D2A0E7A820665C0A009BDFE2 /* Assets.xcassets */,
 				D2A0E7AA20665C0A009BDFE2 /* LaunchScreen.storyboard */,
+				D2A0E7D320666FCD009BDFE2 /* screen1.png */,
+				D2A0E7D1206667C6009BDFE2 /* duplicate explorer icon.png */,
+				D2A0E7CF20666232009BDFE2 /* 99928.jpg */,
 				D2A0E7AD20665C0A009BDFE2 /* Info.plist */,
 			);
 			path = "Discover Realtor";
@@ -239,8 +257,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A0E7AC20665C0A009BDFE2 /* LaunchScreen.storyboard in Resources */,
+				D2A0E7D420666FCD009BDFE2 /* screen1.png in Resources */,
+				D2ED096020667AC000CCE14B /* view.png in Resources */,
+				D2A0E7D2206667C6009BDFE2 /* duplicate explorer icon.png in Resources */,
+				D2A0E7D020666233009BDFE2 /* 99928.jpg in Resources */,
+				D2A0E7D8206677D3009BDFE2 /* Downloads in Resources */,
 				D2A0E7A920665C0A009BDFE2 /* Assets.xcassets in Resources */,
 				D2A0E7A720665C0A009BDFE2 /* Main.storyboard in Resources */,
+				D2A0E7DA20667861009BDFE2 /* navbar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
