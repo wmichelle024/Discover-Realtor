@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2A0E79E20665C0A009BDFE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0E79D20665C0A009BDFE2 /* AppDelegate.swift */; };
+		D2A0E7A020665C0A009BDFE2 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0E79F20665C0A009BDFE2 /* RootViewController.swift */; };
+		D2A0E7A220665C0A009BDFE2 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0E7A120665C0A009BDFE2 /* DataViewController.swift */; };
+		D2A0E7A420665C0A009BDFE2 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0E7A320665C0A009BDFE2 /* ModelController.swift */; };
+		D2A0E7A720665C0A009BDFE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A0E7A520665C0A009BDFE2 /* Main.storyboard */; };
+		D2A0E7A920665C0A009BDFE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A0E7A820665C0A009BDFE2 /* Assets.xcassets */; };
+		D2A0E7AC20665C0A009BDFE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A0E7AA20665C0A009BDFE2 /* LaunchScreen.storyboard */; };
+		D2A0E7B720665C0A009BDFE2 /* Discover_RealtorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0E7B620665C0A009BDFE2 /* Discover_RealtorTests.swift */; };
+		D2A0E7C220665C0A009BDFE2 /* Discover_RealtorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0E7C120665C0A009BDFE2 /* Discover_RealtorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2A0E7B320665C0A009BDFE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2A0E79220665C0A009BDFE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A0E79920665C0A009BDFE2;
+			remoteInfo = "Discover Realtor";
+		};
+		D2A0E7BE20665C0A009BDFE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2A0E79220665C0A009BDFE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A0E79920665C0A009BDFE2;
+			remoteInfo = "Discover Realtor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2A0E79A20665C0A009BDFE2 /* Discover Realtor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Discover Realtor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A0E79D20665C0A009BDFE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2A0E79F20665C0A009BDFE2 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D2A0E7A120665C0A009BDFE2 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		D2A0E7A320665C0A009BDFE2 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		D2A0E7A620665C0A009BDFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2A0E7A820665C0A009BDFE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2A0E7AB20665C0A009BDFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2A0E7AD20665C0A009BDFE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A0E7B220665C0A009BDFE2 /* Discover RealtorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Discover RealtorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A0E7B620665C0A009BDFE2 /* Discover_RealtorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover_RealtorTests.swift; sourceTree = "<group>"; };
+		D2A0E7B820665C0A009BDFE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A0E7BD20665C0A009BDFE2 /* Discover RealtorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Discover RealtorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A0E7C120665C0A009BDFE2 /* Discover_RealtorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover_RealtorUITests.swift; sourceTree = "<group>"; };
+		D2A0E7C320665C0A009BDFE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2A0E79720665C0A009BDFE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A0E7AF20665C0A009BDFE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A0E7BA20665C0A009BDFE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2A0E79120665C0A009BDFE2 = {
+			isa = PBXGroup;
+			children = (
+				D2A0E79C20665C0A009BDFE2 /* Discover Realtor */,
+				D2A0E7B520665C0A009BDFE2 /* Discover RealtorTests */,
+				D2A0E7C020665C0A009BDFE2 /* Discover RealtorUITests */,
+				D2A0E79B20665C0A009BDFE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2A0E79B20665C0A009BDFE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A0E79A20665C0A009BDFE2 /* Discover Realtor.app */,
+				D2A0E7B220665C0A009BDFE2 /* Discover RealtorTests.xctest */,
+				D2A0E7BD20665C0A009BDFE2 /* Discover RealtorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2A0E79C20665C0A009BDFE2 /* Discover Realtor */ = {
+			isa = PBXGroup;
+			children = (
+				D2A0E79D20665C0A009BDFE2 /* AppDelegate.swift */,
+				D2A0E79F20665C0A009BDFE2 /* RootViewController.swift */,
+				D2A0E7A120665C0A009BDFE2 /* DataViewController.swift */,
+				D2A0E7A320665C0A009BDFE2 /* ModelController.swift */,
+				D2A0E7A520665C0A009BDFE2 /* Main.storyboard */,
+				D2A0E7A820665C0A009BDFE2 /* Assets.xcassets */,
+				D2A0E7AA20665C0A009BDFE2 /* LaunchScreen.storyboard */,
+				D2A0E7AD20665C0A009BDFE2 /* Info.plist */,
+			);
+			path = "Discover Realtor";
+			sourceTree = "<group>";
+		};
+		D2A0E7B520665C0A009BDFE2 /* Discover RealtorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2A0E7B620665C0A009BDFE2 /* Discover_RealtorTests.swift */,
+				D2A0E7B820665C0A009BDFE2 /* Info.plist */,
+			);
+			path = "Discover RealtorTests";
+			sourceTree = "<group>";
+		};
+		D2A0E7C020665C0A009BDFE2 /* Discover RealtorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2A0E7C120665C0A009BDFE2 /* Discover_RealtorUITests.swift */,
+				D2A0E7C320665C0A009BDFE2 /* Info.plist */,
+			);
+			path = "Discover RealtorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2A0E79920665C0A009BDFE2 /* Discover Realtor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A0E7C620665C0A009BDFE2 /* Build configuration list for PBXNativeTarget "Discover Realtor" */;
+			buildPhases = (
+				D2A0E79620665C0A009BDFE2 /* Sources */,
+				D2A0E79720665C0A009BDFE2 /* Frameworks */,
+				D2A0E79820665C0A009BDFE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Discover Realtor";
+			productName = "Discover Realtor";
+			productReference = D2A0E79A20665C0A009BDFE2 /* Discover Realtor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2A0E7B120665C0A009BDFE2 /* Discover RealtorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A0E7C920665C0A009BDFE2 /* Build configuration list for PBXNativeTarget "Discover RealtorTests" */;
+			buildPhases = (
+				D2A0E7AE20665C0A009BDFE2 /* Sources */,
+				D2A0E7AF20665C0A009BDFE2 /* Frameworks */,
+				D2A0E7B020665C0A009BDFE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2A0E7B420665C0A009BDFE2 /* PBXTargetDependency */,
+			);
+			name = "Discover RealtorTests";
+			productName = "Discover RealtorTests";
+			productReference = D2A0E7B220665C0A009BDFE2 /* Discover RealtorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2A0E7BC20665C0A009BDFE2 /* Discover RealtorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A0E7CC20665C0A009BDFE2 /* Build configuration list for PBXNativeTarget "Discover RealtorUITests" */;
+			buildPhases = (
+				D2A0E7B920665C0A009BDFE2 /* Sources */,
+				D2A0E7BA20665C0A009BDFE2 /* Frameworks */,
+				D2A0E7BB20665C0A009BDFE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2A0E7BF20665C0A009BDFE2 /* PBXTargetDependency */,
+			);
+			name = "Discover RealtorUITests";
+			productName = "Discover RealtorUITests";
+			productReference = D2A0E7BD20665C0A009BDFE2 /* Discover RealtorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2A0E79220665C0A009BDFE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Michelle Wong";
+				TargetAttributes = {
+					D2A0E79920665C0A009BDFE2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D2A0E7B120665C0A009BDFE2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2A0E79920665C0A009BDFE2;
+					};
+					D2A0E7BC20665C0A009BDFE2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2A0E79920665C0A009BDFE2;
+					};
+				};
+			};
+			buildConfigurationList = D2A0E79520665C0A009BDFE2 /* Build configuration list for PBXProject "Discover Realtor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2A0E79120665C0A009BDFE2;
+			productRefGroup = D2A0E79B20665C0A009BDFE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2A0E79920665C0A009BDFE2 /* Discover Realtor */,
+				D2A0E7B120665C0A009BDFE2 /* Discover RealtorTests */,
+				D2A0E7BC20665C0A009BDFE2 /* Discover RealtorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2A0E79820665C0A009BDFE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A0E7AC20665C0A009BDFE2 /* LaunchScreen.storyboard in Resources */,
+				D2A0E7A920665C0A009BDFE2 /* Assets.xcassets in Resources */,
+				D2A0E7A720665C0A009BDFE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A0E7B020665C0A009BDFE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A0E7BB20665C0A009BDFE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2A0E79620665C0A009BDFE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A0E7A020665C0A009BDFE2 /* RootViewController.swift in Sources */,
+				D2A0E7A420665C0A009BDFE2 /* ModelController.swift in Sources */,
+				D2A0E7A220665C0A009BDFE2 /* DataViewController.swift in Sources */,
+				D2A0E79E20665C0A009BDFE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A0E7AE20665C0A009BDFE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A0E7B720665C0A009BDFE2 /* Discover_RealtorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A0E7B920665C0A009BDFE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A0E7C220665C0A009BDFE2 /* Discover_RealtorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2A0E7B420665C0A009BDFE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2A0E79920665C0A009BDFE2 /* Discover Realtor */;
+			targetProxy = D2A0E7B320665C0A009BDFE2 /* PBXContainerItemProxy */;
+		};
+		D2A0E7BF20665C0A009BDFE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2A0E79920665C0A009BDFE2 /* Discover Realtor */;
+			targetProxy = D2A0E7BE20665C0A009BDFE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2A0E7A520665C0A009BDFE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2A0E7A620665C0A009BDFE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2A0E7AA20665C0A009BDFE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2A0E7AB20665C0A009BDFE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2A0E7C420665C0A009BDFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2A0E7C520665C0A009BDFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2A0E7C720665C0A009BDFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3T63YR429;
+				INFOPLIST_FILE = "Discover Realtor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BizHacks.Discover-Realtor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2A0E7C820665C0A009BDFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3T63YR429;
+				INFOPLIST_FILE = "Discover Realtor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BizHacks.Discover-Realtor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2A0E7CA20665C0A009BDFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3T63YR429;
+				INFOPLIST_FILE = "Discover RealtorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BizHacks.Discover-RealtorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Discover Realtor.app/Discover Realtor";
+			};
+			name = Debug;
+		};
+		D2A0E7CB20665C0A009BDFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3T63YR429;
+				INFOPLIST_FILE = "Discover RealtorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BizHacks.Discover-RealtorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Discover Realtor.app/Discover Realtor";
+			};
+			name = Release;
+		};
+		D2A0E7CD20665C0A009BDFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3T63YR429;
+				INFOPLIST_FILE = "Discover RealtorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BizHacks.Discover-RealtorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Discover Realtor";
+			};
+			name = Debug;
+		};
+		D2A0E7CE20665C0A009BDFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3T63YR429;
+				INFOPLIST_FILE = "Discover RealtorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BizHacks.Discover-RealtorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Discover Realtor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2A0E79520665C0A009BDFE2 /* Build configuration list for PBXProject "Discover Realtor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A0E7C420665C0A009BDFE2 /* Debug */,
+				D2A0E7C520665C0A009BDFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A0E7C620665C0A009BDFE2 /* Build configuration list for PBXNativeTarget "Discover Realtor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A0E7C720665C0A009BDFE2 /* Debug */,
+				D2A0E7C820665C0A009BDFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A0E7C920665C0A009BDFE2 /* Build configuration list for PBXNativeTarget "Discover RealtorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A0E7CA20665C0A009BDFE2 /* Debug */,
+				D2A0E7CB20665C0A009BDFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A0E7CC20665C0A009BDFE2 /* Build configuration list for PBXNativeTarget "Discover RealtorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A0E7CD20665C0A009BDFE2 /* Debug */,
+				D2A0E7CE20665C0A009BDFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2A0E79220665C0A009BDFE2 /* Project object */;
+}
